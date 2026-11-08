@@ -1,29 +1,22 @@
 # Taller Semana 6 de Programación IV
 
-Pokédex en C# con ASP.NET MVC 5, .NET Framework 4.8 y PokéAPI.
+Pokédex en ASP.NET MVC 5 y .NET Framework 4.8 que consume PokéAPI.
 
-## Descargar y ejecutar el proyecto completo
+La carpeta `codigo/` contiene los archivos principales del proyecto para revisión: modelos, controladores, vistas Razor, configuración y estilos de la Pokédex.
 
-1. Descarga [S6P4_proyecto.zip](S6P4_proyecto.zip) y extrae su contenido en una ruta corta.
-2. Instala en Visual Studio la carga **ASP.NET y desarrollo web** y el targeting pack de **.NET Framework 4.8**.
-3. Abre `S6P4/S6P4/S6P4.csproj` (o la solución `.slnx` en una versión compatible).
-4. Restaura los paquetes NuGet, recompila y ejecuta con F5 usando IIS Express.
-5. Se abrirá la Pokédex; prueba `pikachu`, `25`, Siguiente, Anterior y una búsqueda inexistente.
+## Estado de la entrega
 
-El ZIP contiene el proyecto completo con sus recursos originales. Se excluyeron únicamente cachés de Visual Studio, binarios, archivos de usuario y paquetes restaurables de NuGet. La carpeta `codigo/` permite revisar los archivos principales sin extraer el ZIP; para ejecutar utiliza el ZIP completo, que incluye también todos los recursos CSS y JavaScript.
+El informe PDF con cuatro capturas reales y el paquete completo del proyecto están preparados. Su carga a este repositorio está pendiente de habilitar la transferencia de archivos del navegador. Los recursos generales CSS y JavaScript de la plantilla se incluyen en el paquete completo, todavía pendiente de carga.
 
-## Funcionamiento
+## Funciones verificadas
 
-- Listado de 20 Pokémon por página y detalles consultados en paralelo.
-- Búsqueda por nombre o número.
-- Ficha con imagen, tipo, descripción en español, altura, peso, estadísticas y habilidades.
-- Mensaje de Pokémon no encontrado.
-- API pública: https://pokeapi.co/api/v2/ (sin claves).
+- Catálogo de 20 Pokémon por página.
+- Paginación, búsqueda por nombre y número y navegación a la ficha.
+- Imagen, descripción, tipos, medidas, estadísticas y habilidades.
+- Aviso de Pokémon inexistente.
 
-## Evidencias
+## Ejecución
 
-El informe PDF y las capturas están disponibles en este repositorio. Las capturas se obtuvieron ejecutando los controladores y vistas Razor originales mediante System.Web y una pasarela HTTP local de verificación; no representan un despliegue en GitHub Pages. La ejecución habitual del proyecto es con Visual Studio e IIS Express.
+Usar Visual Studio con ASP.NET y desarrollo web, .NET Framework 4.8 targeting pack e IIS Express. Restaurar paquetes NuGet antes de compilar. Las capturas se obtuvieron ejecutando los controladores y vistas originales con System.Web y una pasarela HTTP local de verificación.
 
-## Referencia académica
-
-Guía **Instrucciones Taller Semana 6 - 5463**, Programación IV, Universidad de Las Américas. Docente: Luis Fernando Aguas Bucheli.
+Guía académica: Instrucciones Taller Semana 6 - 5463, Programación IV, Universidad de Las Américas. Docente Luis Fernando Aguas Bucheli.
